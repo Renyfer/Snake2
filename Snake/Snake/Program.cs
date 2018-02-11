@@ -49,6 +49,15 @@ namespace Snake
             List<Point> pList = new List<Point>();
             pList.Add(p1);
             pList.Add(p2);
+            pList.Add(p3);
+            pList.Add(p4);
+            pList.Add(p5);
+            pList.Add(p6);
+
+            foreach(Point i in pList)
+            {
+                i.Draw();
+            }
 
             Console.ReadLine();
         }
